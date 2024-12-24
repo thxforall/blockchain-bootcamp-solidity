@@ -179,6 +179,6 @@ contract Q10 {
     }
 
     function getArrayByIndex(uint256 _n) public view returns (uint256 result) {
-        return numbers[_n];
+        return numbers[_n - 1];
     }
 }
