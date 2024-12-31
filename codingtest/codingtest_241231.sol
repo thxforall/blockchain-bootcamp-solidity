@@ -156,7 +156,6 @@ contract TEACHER {
         for (uint256 i = 0; i < length; i++) {
             for (uint256 j = i + 1; j < length; j++) {
                 if (_students[i].score < _students[j].score) {
-                    // Swap
                     STUDENT memory temp = _students[i];
                     _students[i] = _students[j];
                     _students[j] = temp;
