@@ -146,7 +146,7 @@
 						"type": "string"
 					}
 				],
-				"name": "findStudentScoerByName",
+				"name": "findStudentScoreByName",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -351,7 +351,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"codingtest/codingtest_241231.sol": "TEACHER"
+			"codingtest/refactor_codingtest/codingtest_241231.sol": "TEACHER"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -365,12 +365,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"codingtest/codingtest_241231.sol": {
-			"keccak256": "0x78aa16bf88695142d1ad2e8ba4631e8b92ad68b326335e503b60174d9bf10735",
+		"codingtest/refactor_codingtest/codingtest_241231.sol": {
+			"keccak256": "0x0eda1625dfca45a1ea1f074f256d273ca3d99f26736781a9fbb3e89c959c1131",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3c1b15a9d4c86ae0e098e3425d86ef15acb8ab26e33755270e70868f561d6ccf",
-				"dweb:/ipfs/Qmah5fVnQqyP5zoUgAtNbLUBu2m7sXiscn4GvqpwXAvJbX"
+				"bzz-raw://4d05952b2cc4ea8b7940de1c04a7f474117f1d9a71e663c0251fb5e3b92122c4",
+				"dweb:/ipfs/QmSo2nwWiyqg9YpMapttFUy1cUNap2GPk3R5JD7Yt931eD"
 			]
 		}
 	},
