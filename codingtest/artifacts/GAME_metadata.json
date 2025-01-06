@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"codingtest/codingtest_250106.sol": "GAME"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"codingtest/codingtest_250106.sol": {
+			"keccak256": "0x5e3d77d68cf43172c8356afd806c5c5aab75792b52110a514ca15a2e34d04505",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7795a62eb91cb4912f9800ae384fbc0f8ad5ae786abf75f65a20df0a55f15d38",
+				"dweb:/ipfs/Qmcnh4BLRTGLmhs8HrusYz27XpJMNAeyfPVSS9ZphebJm4"
+			]
+		}
+	},
+	"version": 1
+}
