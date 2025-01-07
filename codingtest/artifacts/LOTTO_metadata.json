@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getReward",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8[4]",
+						"name": "userNumbers",
+						"type": "uint8[4]"
+					},
+					{
+						"internalType": "bytes1[2]",
+						"name": "userLetters",
+						"type": "bytes1[2]"
+					}
+				],
+				"name": "play",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "rewards",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"codingtest/codingtest_250107.sol": "LOTTO"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"codingtest/codingtest_250107.sol": {
+			"keccak256": "0xb1f65dd63d46318174a1d6140f186904e96167e66d218f53aadbc9b64be38d7e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://24cb81cd5f5c5823e6e0155ea22640d1b0709158e9494b19dbe67eb6f4b7f822",
+				"dweb:/ipfs/QmPhq93BpgHkJAqRs6ALZki4Sp3q6DhLcqDvxY7BPknseZ"
+			]
+		}
+	},
+	"version": 1
+}
