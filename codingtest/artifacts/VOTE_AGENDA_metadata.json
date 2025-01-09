@@ -4,125 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "agendaArray",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "number",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					},
-					{
-						"internalType": "address",
-						"name": "proposer",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "approval",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "opposite",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_description",
-						"type": "string"
-					}
-				],
-				"name": "newAgenda",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"name": "registerUser",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "users",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "address",
-						"name": "myAddress",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_title",
-						"type": "string"
-					},
-					{
-						"internalType": "bool",
-						"name": "_isApproval",
-						"type": "bool"
-					}
-				],
-				"name": "voteAgenda",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -136,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"codingtest/codingtest_250108.sol": "VOTE_AGENDA"
+			"codingtest/codingtest_250109.sol": "VOTE_AGENDA"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -150,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"codingtest/codingtest_250108.sol": {
-			"keccak256": "0xf9b1665a6658663e5d585908fa4ab7bd3d77bbda7da03b0ce3aa1f430e0ee2bd",
+		"codingtest/codingtest_250109.sol": {
+			"keccak256": "0x946b2d9b2719c7b9e6c6ad927bbf90612292085c4fad09c0c2fed1c05ca3ec72",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://74aa4f070ef322d234e62c3e476feb5fccd220f2cf50c8a7450968e72f44d018",
-				"dweb:/ipfs/Qmdz3jr7dcX7gTGAnn22uPEEgoKXYVYpTWGXnAP61RPWm6"
+				"bzz-raw://60767649aaa4eb095811f75b81128d33b8a24c4accba91b778659d9eb740f215",
+				"dweb:/ipfs/QmP88sTcV44Cm8ihHCwhKqfczR7L6vSJCRdFAsXRAEVK9e"
 			]
 		}
 	},
