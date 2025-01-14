@@ -4,7 +4,27 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "sliceNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +53,11 @@
 	},
 	"sources": {
 		"solidity100/5.solidity100_250114.sol": {
-			"keccak256": "0xc83530265cc3024032144709ce1dfb9c62c55d9aa89c836c1dc8f45ec913db8c",
+			"keccak256": "0xe658aa664f668ebad1441df80c167c831ca820e41d2998146a62e93a2c8eb528",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e1afbbf537d4bf3fb1a6e94055e118ada4424b4027c7aff559c2552861742793",
-				"dweb:/ipfs/QmWvHUM84ASV7xjbTDLvwbBkDDeGC7GatFoRfuyucqU5sL"
+				"bzz-raw://8f22228e8e6969b902eb59faa5fff9dfdcf954729f3f2b405556ea0bf1f41eb6",
+				"dweb:/ipfs/QmZDtCbym24P8A7cb1LuncABvgi7mGcgnLxwFh8tvLoHUa"
 			]
 		}
 	},

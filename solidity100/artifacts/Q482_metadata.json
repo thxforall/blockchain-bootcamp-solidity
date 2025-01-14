@@ -6,15 +6,51 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_ca",
+						"type": "address"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "changeAuth",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "q84Fn",
+				"outputs": [
+					{
+						"internalType": "contract Q481",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -31,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity100/5.solidity100_250114.sol": "Q47"
+			"solidity100/5.solidity100_250114.sol": "Q482"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

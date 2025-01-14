@@ -6,15 +6,27 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "changeAuth",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -31,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity100/5.solidity100_250114.sol": "Q47"
+			"solidity100/5.solidity100_250114.sol": "Q481"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
