@@ -1,0 +1,23 @@
+{
+  "name": "blockchain-bootcamp-solidity",
+  "version": "1.0.0",
+  "description": "2024 Blockchain Bootcamp Solidity",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node codingtest/codingtest_250116.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@curvefi/api": "^2.65.27",
+    "@sushiswap/sdk": "^5.0.0-canary.116",
+    "@uniswap/v3-sdk": "^3.21.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "punycode": "^2.3.1",
+    "web3": "^4.16.0"
+  }
+}
