@@ -49,10 +49,4 @@ async function getUniswapV3Pool() {
   console.log(`Uniswap V3 Pool Address: ${poolAddress}`);
 }
 
-// 모든 환경 변수 로드 확인
-console.log("현재 로드된 환경 변수:");
-for (const [key, value] of Object.entries(process.env)) {
-    console.log(`${key}: ${value}`);
-}
-
 getUniswapV3Pool();
