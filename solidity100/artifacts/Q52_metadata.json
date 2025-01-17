@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_birth",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "makeId",
+				"outputs": [
+					{
+						"internalType": "bytes10",
+						"name": "",
+						"type": "bytes10"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity100/6.solidity100_250117.sol": "Q52"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity100/6.solidity100_250117.sol": {
+			"keccak256": "0xdca3be7be6a81b88776bc9439790c616fff21bb0b185fa906eca5c56ebaf2aed",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b136b1c39992e6948c937c47f247f75d0357fcc7cd028f08cbe0f8a1eff76bb7",
+				"dweb:/ipfs/QmSPJDAr22JM1FmFrTZBJtmDNc4ia8mWAmH5YB5VJRQ2iB"
+			]
+		}
+	},
+	"version": 1
+}
