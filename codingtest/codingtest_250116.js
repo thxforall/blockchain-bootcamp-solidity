@@ -23,7 +23,7 @@ const UNISWAP_V3_POOL_ABI = [
   {
     inputs: [
       { internalType: "address", name: "", type: "address" },
-      { internalType: "address", name: "", type: "address" },
+      { internalType: "address", name: "", type: "address" },  
       { internalType: "uint24", name: "", type: "uint24" },
     ],
     name: "getPool",
