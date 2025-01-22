@@ -6,11 +6,10 @@ contract AUTH {
     mapping(string => bytes32) private user;
     mapping(string => uint256) private loginAttempts;
 
-    function hashingUser(string memory _id, string memory _pw)
-        private
-        pure
-        returns (bytes32)
-    {
+    function hashingUser(
+        string memory _id,
+        string memory _pw
+    ) private pure returns (bytes32) {
         return keccak256(abi.encodePacked(_id, _pw));
     }
 
@@ -34,24 +33,22 @@ contract AUTH {
         _;
     }
 
-    function register(string memory _id, string memory _pw)
-        public
-        validateInput(_id, _pw)
-        checkId(_id)
-    {
+    function register(
+        string memory _id,
+        string memory _pw
+    ) public validateInput(_id, _pw) checkId(_id) {
         user[_id] = hashingUser(_id, _pw);
     }
 
-    function login(string memory _id, string memory _pw)
-        public
-        validateInput(_id, _pw)
-        returns (bool)
-    {
+    function login(
+        string memory _id,
+        string memory _pw
+    ) public validateInput(_id, _pw) returns (bool) {
         require(
             loginAttempts[_id] < 5,
             "Too many failed attempts. Account locked."
         );
-
+        loginAttempts[_id] != 0 ? loginAttempts[_id] = 0 : loginAttempts[_id] = 1;
         if (user[_id] == hashingUser(_id, _pw)) {
             loginAttempts[_id] = 0;
             return true;
@@ -61,10 +58,10 @@ contract AUTH {
         }
     }
 
-    function deleteUser(string memory _id, string memory _pw)
-        public
-        validateInput(_id, _pw)
-    {
+    function deleteUser(
+        string memory _id,
+        string memory _pw
+    ) public validateInput(_id, _pw) {
         require(user[_id] != 0, "User does not exist");
 
         if (user[_id] == hashingUser(_id, _pw)) {
